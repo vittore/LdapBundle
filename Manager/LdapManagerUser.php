@@ -92,7 +92,7 @@ class LdapManagerUser implements LdapManagerUserInterface
         if (!$this->username) {
             throw new \Exception('User is not defined, pls use setUsername');
         }
-
+        
         $filter = isset($this->params['user']['filter'])
             ? $this->params['user']['filter']
             : '';
@@ -158,6 +158,10 @@ class LdapManagerUser implements LdapManagerUserInterface
 
     private function bind()
     {
+        if (strlen($this->password)==0) {
+            return false;
+        }
+        
         return $this->ldapConnection
             ->bind($this->_ldapUser['dn'], $this->password);
     }
