@@ -4,10 +4,16 @@
     "homepage": "https://github.com/BorisMorel/LdapBundle/issues/36",
     "version": "2.1.0",
     "authors": [
+    {
+"name": "Boris Morel",
+"email": "boris.morel@imag.fr",
+"role": "Developer",
+"homepage" : "https://github.com/BorisMorel"
+},
         {
             "name": "Vittore Zen",
             "email": "vittore@zen.pn.it",
-            "role": "Developer",
+           "role": "Fork Maintainer",
             "homepage" : "https://github.com/vittore"
         }
     ],
