@@ -24,7 +24,7 @@
     "source": {
         "url": "https://github.com/vittore/LdapBundle.git",
         "type": "git",
-        "reference": "origin/master"
+        "reference": "origin/dev-igroove4"
     },
     "autoload": {
         "psr-0": { "IMAG\\LdapBundle": "" }
