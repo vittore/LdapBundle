@@ -2,7 +2,7 @@
     "name": "zen/ldap-bundle",
     "description": "LDAP Bundle for Symfony 2 derived from imag/ldap-bundle",
     "homepage": "https://github.com/BorisMorel/LdapBundle/issues/36",
-    "version": "2.1.0",
+    "version": "dev-igroove4",
     "authors": [
     {
 "name": "Boris Morel",
